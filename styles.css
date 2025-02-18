@@ -16,6 +16,12 @@ img {
     margin: auto;
 }
 
+h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
 a {
     text-decoration: none;
     display: block;
@@ -23,7 +29,7 @@ a {
 
 button {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 100%;
     padding: 10px;
@@ -66,4 +72,10 @@ button:disabled {
 
 .completed .loader {
     display: none;
+}
+
+/* ৪ নম্বর বাটনের টেক্সট মাঝখানে ঠিক করা */
+#finalBtn button {
+    font-weight: bold;
+    font-size: 18px;
 }
